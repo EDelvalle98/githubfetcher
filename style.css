@@ -1,0 +1,47 @@
+body {
+  font-family: 'Courier New', monospace;
+  background: url(image/jail.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #f9f5dc; /* Off-white parchment color */
+  color: #4e3629; /* Dark brown for text */
+}
+
+#main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6b4226;
+  text-shadow: 2px 2px 4px #000;
+}
+
+form-control {
+  border: 2px solid #6b4226;
+  background-color: #fffdf5;
+}
+
+.btn-dark {
+  background-color: #4e3629;
+  border: none;
+}
+
+#userDetails {
+  border: 10px solid #4e3629;
+  background-color: #f8ecc2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#userDetails img {
+  border: 5px solid #4e3629;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-group-item {
+  background-color: #fffdf5;
+  border: none;
+  color: #4e3629;
+}
